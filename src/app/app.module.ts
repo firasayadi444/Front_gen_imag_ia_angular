@@ -19,6 +19,8 @@ import { MatMenuModule } from '@angular/material/menu';
 import { ProfilComponent } from './profil/profil.component'; // Import MatMenuModule
 import { ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
+import { HomeScreenComponent } from './home-screen/home-screen.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,9 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     FooterComponent,
     ProfilComponent,
-    HomeComponent
+    HomeComponent,
+    HomeScreenComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
